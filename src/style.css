@@ -1,3 +1,26 @@
 body {
+    margin: 0;
     background-color: aqua;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+button i {
+    font-size: 2rem;
+}
+div {
+    height:100vh;
+     overflow: hidden;
+}
+.image-container img {
+     width: auto;
+    height: 100%;
 }
