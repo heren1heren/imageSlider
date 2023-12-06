@@ -21,6 +21,12 @@ div {
      overflow: hidden;
 }
 .image-container img {
-     width: auto;
+     width: 1200px;
     height: 100%;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+
+img.img-transition {
+    opacity: 1;
 }
